@@ -10,8 +10,11 @@ Fetch external image
 
 Identify external background color
 
-         external fonts used
+Identify external fonts used
 
 how tu use classes with css
 
 apply css code to html code
+
+
+From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
