@@ -136,3 +136,7 @@ li{
     color: #5f6368;
     text-decoration: underline;
 }
+
+h3{
+    display: none;
+}
