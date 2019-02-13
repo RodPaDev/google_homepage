@@ -164,6 +164,7 @@ li{
 .bottomlinks:hover{
     color: #5f6368;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .bottomlinks:visited{
