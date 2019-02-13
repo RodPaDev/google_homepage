@@ -107,6 +107,7 @@ main {
     box-shadow: 0 1px 1px rgba(0, 0 ,0 ,0.1);
     background-image: linear-gradient(to bottom, #fcfff4 0%,#f2f2f2 100%);
     border-radius: 2px;
+    cursor: pointer;
 }
 
 /* Footer section*/
@@ -159,6 +160,7 @@ li{
 .bottomlinks:link{
     color: #5f6368;
     text-decoration: none;
+    
 }
 
 .bottomlinks:hover{
