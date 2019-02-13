@@ -5,6 +5,43 @@
     font-family: Arial, sans-serif;
 }
 
+.container{
+    display: grid;
+    height: 100vH;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 10vH auto 13vH;
+    overflow: hidden;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+/* Header Section*/
+
+header{
+    position: absolute;
+}
+
+.headerNav{
+    position: fixed;
+    top: 1em;
+    right: 1em;
+}
+
+.headerNav img{
+    height: 36px;
+    width: 36px;
+    display: inline-block;
+    margin: 0px 5px;
+    border-radius: 100%;
+    border: 1px solid #e5e5e5;
+}
+
+.headerNav img:hover{
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+/* Main section */
 main img#googleImage {
     width: 272px;
     margin-bottom: 25px;
@@ -38,14 +75,6 @@ main {
     width: 444px;
     border: none;
     outline: 0;
-}
-
-
-.container{
-    display: grid;
-    height: 100vH;
-    grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 10vH auto 13vH;
 }
 
 .buttons{
@@ -90,8 +119,8 @@ footer{
     font-size: 1.3em;
     color: #5f6368;
     line-height: 40px;
-    height: 82px;
     bottom: 0;
+    position: absolute;
 }
 
 footer div {
@@ -135,6 +164,10 @@ li{
 .bottomlinks:hover{
     color: #5f6368;
     text-decoration: underline;
+}
+
+.bottomlinks:visited{
+    color: #5f6368;
 }
 
 h3{
